@@ -1,0 +1,19 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    11                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: kykim <marvin@42.fr>                       +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2018/06/30 21:46:44 by kykim             #+#    #+#              #
+#    Updated: 2018/06/30 21:51:13 by kykim            ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#Use the output of the previous command to find the name and IP address of the
+#device that makes the link between you (local network) and the outside world
+
+# NAT is Network Address Translation (NAT)
+echo "nat (10.90.1.11)"
+
+# "https://whatismyipaddress.com/nat"

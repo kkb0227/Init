@@ -1,0 +1,22 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    08                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: kykim <marvin@42.fr>                       +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2018/06/30 21:37:45 by kykim             #+#    #+#              #
+#    Updated: 2018/06/30 21:40:59 by kykim            ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#Find the provider of slash16.org
+
+# whois prints out the information of input domains.
+# man whois
+
+# command 
+whois slash16.org
+
+# provider
+# AWS (Amazon Web Services)

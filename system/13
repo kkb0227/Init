@@ -1,0 +1,17 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    13                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: kykim <marvin@42.fr>                       +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2018/07/01 21:15:37 by kykim             #+#    #+#              #
+#    Updated: 2018/07/01 21:17:57 by kykim            ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#Name the command that find, in real time, currently running processes
+ps -aux
+# a : Select all processes
+# u : Select all processes on a terminal, including those of other users
+# x : Select processes without controlling ttys

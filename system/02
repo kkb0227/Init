@@ -1,0 +1,18 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    02                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: kykim <marvin@42.fr>                       +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2018/06/30 22:49:23 by kykim             #+#    #+#              #
+#    Updated: 2018/06/30 22:51:29 by kykim            ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#What command can you use to rename your system?
+hostname new_name
+
+#to use hostname you have to go to root
+#use "su" to go to root
+#check hostname with "hostname" 

@@ -1,0 +1,20 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    06                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: kykim <marvin@42.fr>                       +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2018/06/29 14:36:03 by kykim             #+#    #+#              #
+#    Updated: 2018/06/29 14:38:17 by kykim            ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#Get the complete path of the file that contains the IP address of the DNS server
+#you’re using
+# command :
+less /etc/resolv.conf
+
+# answer :
+# /etc/resolv.conf
+

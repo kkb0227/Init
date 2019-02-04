@@ -1,0 +1,18 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    12                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: kykim <marvin@42.fr>                       +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2018/07/01 21:11:05 by kykim             #+#    #+#              #
+#    Updated: 2018/07/01 21:14:24 by kykim            ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#Figure out the exact size of each folder of /var in a humanly understandable way
+#followed by the path of it.
+du -sh /var/*
+
+# -s : display only a total for each argument
+# -h : print sizes in human readable format

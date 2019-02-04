@@ -1,0 +1,21 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    02                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: kykim <marvin@42.fr>                       +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2018/07/01 22:08:17 by kykim             #+#    #+#              #
+#    Updated: 2018/07/01 22:14:08 by kykim            ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#Write a script which updates all the package sources, then all the packages, and then
+#logs everything in a file named /var/log/update_script.log. Create a scheduled
+#task for this script, once per week at 4 AM.
+
+echo 'apt-get update -y && apt-get upgrade -y >> /var/log/update_script.log' >> ~/update.sh
+echo '0 4 * * 1 root sh ~/update.sh' | crontab
+
+# for time format:
+# minute(s) hour(s) day(s) month(s) weekday(s) command(s)

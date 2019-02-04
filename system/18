@@ -1,0 +1,18 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    18                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: kykim <marvin@42.fr>                       +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2018/07/01 21:30:24 by kykim             #+#    #+#              #
+#    Updated: 2018/07/01 21:33:37 by kykim            ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#With the previous command, authorize only IP addresses from 10.0.0.0/8 to connect
+#to your system
+iptables -A INPUT -s 10.0.0.0/8 -j ACCEPT
+# -A : append to chain
+# -s : sources / address
+# -j : jump / target (target for rules)

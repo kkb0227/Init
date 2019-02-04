@@ -1,0 +1,15 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    08                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: kykim <marvin@42.fr>                       +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2018/07/01 20:49:18 by kykim             #+#    #+#              #
+#    Updated: 2018/07/01 21:05:24 by kykim            ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#What file contains the RSA keys of systems that are authorized to connect via SSH?
+# ~/.ssh/authorized_keys
+# /etc/ssh/sshd_config

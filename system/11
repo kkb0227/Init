@@ -1,0 +1,15 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    11                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: kykim <marvin@42.fr>                       +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2018/07/01 21:08:56 by kykim             #+#    #+#              #
+#    Updated: 2018/07/01 21:09:46 by kykim            ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#Name the command that displays the available space left and used on the system
+#in an humanly understandable way
+df -h
